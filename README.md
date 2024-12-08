@@ -34,25 +34,26 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/kankaGate/fem-social-link
+- Live Site URL: https://kankagate.github.io/fem-social-link/
 
 ## My process
+
+creating the html structure and then styling it for desktop, lastly styling it for mobile
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Desktop-first workflow
 
 ### What I learned
+
+I learned how to center component using flexbox, and the important of body height to the bertical alignment
+I learned how to implement variable on css
+I learned pseudocode on onfocus
+I learned lastypeof pseudocode
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -80,9 +81,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+In the future, i would like to implement this project using react js, habitually using semantic element on HTML
 
 ### Useful resources
 
