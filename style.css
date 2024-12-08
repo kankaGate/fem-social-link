@@ -81,7 +81,8 @@ body {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+.btn:focus {
     background-color: var(--Green);
     color: var(--Grey900);
 }
