@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--Grey900);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container {
+    background-color: var(--Grey800);
+    max-width: 38.4rem;
+    border-radius: 1.5rem;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.author-photo {
+    border-radius: 50%;
+    /* height: 9rem; */
+    width: 9rem;
+    margin-bottom: 2.8rem;
+}
+
+.author-name {
+    font-size: 2.4rem;
+    color: var(--White);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.author-location {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2.8rem;
+    color: var(--Green);
+}
+
+.author-job {
+    color: var(--White);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2.6rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 1.4rem 0;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--White);
+    background-color: var(--Grey700);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1.6rem;
+    transition: all 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: var(--Green);
+    color: var(--Grey900);
+}
+
+.btn:last-of-type {
+    margin-bottom: 0;
+}

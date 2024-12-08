@@ -1,0 +1,7 @@
+@media(max-width: 24em) {
+    .profile-container {
+        max-width: 32.7rem;
+        padding: 2.4rem;
+        margin-bottom: 2.5rem;
+    }
+}
